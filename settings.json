@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "/Users/python/PyDev/Gutendex/gutendex/env/bin/python3.7",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
+}
