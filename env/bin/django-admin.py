@@ -1,4 +1,4 @@
-#!/Users/python/PyDev/Gutendex/gutendex/env/bin/python3.7
+#!/Users/python/PyDev/Gutendex/gutendex/LibOpenDataApi/env/bin/python3.7
 from django.core import management
 
 if __name__ == "__main__":

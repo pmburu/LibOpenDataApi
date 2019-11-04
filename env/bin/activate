@@ -40,7 +40,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/python/PyDev/Gutendex/gutendex/env"
+VIRTUAL_ENV="/Users/python/PyDev/Gutendex/gutendex/LibOpenDataApi/env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

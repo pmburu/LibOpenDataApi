@@ -6,8 +6,10 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 from rest_framework import routers
+from rest_framework_jwt.views import obtain_jwt_token
 
 from books import views
+from books.views import LoginView, RegisterUsersView
 
 
 router = routers.DefaultRouter()
@@ -17,7 +19,9 @@ urlpatterns = [
     url(r'^$', TemplateView.as_view(template_name='home.html')),
     url(r'^', include(router.urls)),
     url(r'^admin/', admin.site.urls),
-    url(r'^api/auth/', include('djoser.urls.authtoken')),
+    url(r'^auth/login/', LoginView.as_view(), name="auth-login"),
+    url(r'^auth/register/', RegisterUsersView.as_view(), name="auth-register"),
+    url(r'^api/auth/', obtain_jwt_token, name='create-token'),
 ]
 
 urlpatterns += staticfiles_urlpatterns()

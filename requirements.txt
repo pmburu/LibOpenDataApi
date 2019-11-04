@@ -3,6 +3,7 @@ Django==2.2
 django-environ==0.4.5
 django-templated-mail==1.1.1
 djangorestframework==3.10.3
+djangorestframework-jwt==1.11.0
 djangorestframework-simplejwt==4.3.0
 djoser==2.0.3
 inflection==0.3.1

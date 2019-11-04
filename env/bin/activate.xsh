@@ -28,7 +28,7 @@ def _deactivate(args):
 _deactivate(["nondestructive"])
 aliases["deactivate"] = _deactivate
 
-$VIRTUAL_ENV = r"/Users/python/PyDev/Gutendex/gutendex/env"
+$VIRTUAL_ENV = r"/Users/python/PyDev/Gutendex/gutendex/LibOpenDataApi/env"
 
 $_OLD_VIRTUAL_PATH = $PATH
 $PATH = $PATH[:]

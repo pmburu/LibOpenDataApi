@@ -13,7 +13,7 @@ Why?
 
 Project Gutenberg can be a useful source of literature, but its large size makes it difficult to
 access and analyse it on a large scale. Thus, an API of its catalog information is useful for
-automating these tasks.
+automating these tasks. It is a good API
 
 
 How does it work?
@@ -169,4 +169,10 @@ Types of JSON objects served by Gutendex are given below.
   <string of MIME-type>: <string of URL>,
   ...
 }
+```
+
+#### Format
+
+```
+Inspired By: Gareth Johnson - Gutendex
 ```

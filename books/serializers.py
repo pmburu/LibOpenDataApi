@@ -96,3 +96,10 @@ class BookSerializer(serializers.ModelSerializer):
         subjects = [subject.name for subject in book.subjects.all()]
         subjects.sort()
         return subjects
+
+
+class TokenSerializer(serializers.Serializer):
+    """
+    This serializer serializes the token data
+    """
+    token = serializers.CharField(max_length=255)
