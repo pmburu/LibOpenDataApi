@@ -2,7 +2,7 @@ astroid==2.3.2
 Django==2.2.4
 django-environ==0.4.5
 django-templated-mail==1.1.1
-djangorestframework==3.10.3
+djangorestframework==3.11.2
 djangorestframework-jwt==1.11.0
 djangorestframework-simplejwt==4.3.0
 djoser==2.0.3
